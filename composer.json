@@ -1,0 +1,25 @@
+{
+    "name": "andreykurmel/eloquent_as_doctrine",
+    "description": "Hydrate Laravel Entities from Models to use all Eloquent benefits in Service/Repository pattern.",
+    "keywords": ["eloquent","doctrine"],
+    "type": "library",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "AndreyKurmel",
+            "email": "kurmeldeveloper@gmail.com",
+            "homepage": "https://github.com/andreykurmel/laravel_as_doctrine",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndreyKurmel\\EloquentAsDoctrine\\": "src"
+        }
+    }
+}
